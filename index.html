@@ -7,6 +7,13 @@
 </head>
 
 <body>
+<script src="//connect.soundcloud.com/sdk.js"></script>
+<script>
+  SC.initialize({
+    client_id: "YOUR_CLIENT_ID",
+    redirect_uri: "http://example.com/callback.html",
+  });
+</script>
     <script type="text/javascript" src="./bower_components/Loader/loader.js" id="loaderjs" data-app="./js/app.js"></script>
 </body>
 
